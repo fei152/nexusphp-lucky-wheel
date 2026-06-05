@@ -1,0 +1,23 @@
+{
+    "name": "xiaomlove/nexusphp-lucky-wheel",
+    "description": "Lucky wheel plugin for NexusPHP.",
+    "type": "library",
+    "license": "GPL-2.0-only",
+    "autoload": {
+        "psr-4": {
+            "NexusPlugin\\LuckyWheel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NexusPlugin\\LuckyWheel\\ServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.2 <8.6"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
